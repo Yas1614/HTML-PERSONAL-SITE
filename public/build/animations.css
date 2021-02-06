@@ -1,0 +1,33 @@
+.delay-0 {
+animation-delay: 1.5s;
+}
+
+.delay-1 {
+animation-delay: 2.25s;
+}
+.delay-2 {
+animation-delay: 2.5s;
+}
+.delay-3 {
+animation-delay: 2.75s;
+}
+.delay-4 {
+animation-delay: 3.1s;
+}
+.delay-5 {
+  animation-delay: 3.3s;
+}
+
+.typewriter p {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+    typing 6s steps(60, end),
+    blink-caret .80s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
